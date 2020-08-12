@@ -28,6 +28,5 @@ final class Question1ViewController: UIViewController {
         comment.text=""
         
     }
-    
 }
 
