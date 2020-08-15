@@ -9,6 +9,7 @@ final class Question1ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var comment: UITextView!
     
+    
 
     @IBAction func button(_ sender: Any) {
      if(textField.text==""){
