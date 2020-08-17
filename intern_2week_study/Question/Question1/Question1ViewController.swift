@@ -13,11 +13,12 @@ final class Question1ViewController: UIViewController {
     @IBAction func button(_ sender: Any) {
      if(textField.text==""){
         label.text="文字を入力してください"
-        textView.textColor = UIColor.red
+        label.textColor = UIColor.red
         
      }else{
              comment.text += textField.text! + "\n"
              label.text = ""
+             textField.text=""
       }
         print(comment.text)
   }
