@@ -37,7 +37,7 @@ final class Question2ViewController: UIViewController, UITableViewDelegate {
             return UITableViewCell()
         }
         
-//動作
+
        func tableView(_ tableView: UITableView, didSelectRowAt  indexPath: IndexPath) {
             
         var alertController = UIAlertController()
