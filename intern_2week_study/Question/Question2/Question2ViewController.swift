@@ -6,12 +6,12 @@ final class Question2ViewController: UIViewController, UITableViewDelegate {
     
     private let areaTexts: [String] = ["茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県"]
     private let areaImages: [String] = [
-        "https://uub.jp/47/ibaraki/ibaraki_kensho.png",
-        "https://uub.jp/47/tochigi/tochigi_kensho.png",
-        "https://uub.jp/47/gunma/gunma_monsho.png",
-        "https://uub.jp/47/saitama/saitama_kensho.png",
+        "https://www.ia-ibaraki.or.jp/kokusai/international/minkan/img/map.gif",
+        "https://tochigi-vet.or.jp/hospital/img/tochigimap2.jpg",
+        "https://www.j-lis.go.jp/data/open/cnt/3/584/1/map-gunma5.jpg",
+        "https://www.pref.saitama.lg.jp/a0106/sumunarasaitama/cities/images/citiesindex-map.jpg",
         "https://uub.jp/47/chiba/chiba_kensho.png",
-        "https://uub.jp/47/tokyo/tokyo_symbol.png",
+        "https://www.illust-box.jp/db_img/sozai/00007/71771/watermark.jpg",
         "https://uub.jp/47/kanagawa/kanagawa_kensho.png"
         ]
         
@@ -42,7 +42,7 @@ final class Question2ViewController: UIViewController, UITableViewDelegate {
             
         var alertController = UIAlertController()
             alertController = UIAlertController(title: areaTexts[indexPath.row], message: "関東地方", preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            alertController.addAction(UIAlertAction(title: "閉じる", style: .default, handler: nil))
             present(alertController, animated: true)
         }
     }
